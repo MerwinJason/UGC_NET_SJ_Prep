@@ -242,7 +242,7 @@ p { line-height: 1.6; }
 .q-status-dot.wrong { background: var(--red); box-shadow: 0 0 8px var(--red); }
 
 /* Question Display */
-.question-viewer { padding: 32px; display: flex; flex-direction: column; }
+.question-viewer { padding: 32px; display: flex; flex-direction: column; overflow-y: auto; }
 .q-text { font-size: 1.3rem; font-weight: 500; margin-bottom: 32px; line-height: 1.6; }
 .options-grid { display: flex; flex-direction: column; gap: 16px; margin-bottom: auto; }
 .option-btn {
