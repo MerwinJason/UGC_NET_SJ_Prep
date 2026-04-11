@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UGC NET Paper II Prep</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Loading Overlay (Visible during fetch) -->
+  <div id="loader-modal">
+      <div class="loader-spinner"></div>
+      <h2 style="margin-top: 16px;">Loading Question Data...</h2>
+      <p class="text-muted" style="font-family: var(--font-mono); font-size: 0.9rem;">Fetching mcq_clean.json & mcq_full.json</p>
+  </div>
+
+  <!-- Sidebar Component -->
+  <aside id="sidebar">
+    <div class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="text-cyan" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+      UGC NET Prep
+    </div>
+    <ul class="nav-items">
+      <li class="nav-item active" data-target="dashboard">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        Dashboard
+      </li>
+      <li class="nav-item" data-target="papers">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        Papers
+      </li>
+      <li class="nav-item" data-target="practice">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        Practice Test
+      </li>
+      <li class="nav-item" data-target="progress">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+        Progress
+      </li>
+      <li class="nav-item" data-target="flashcards">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        Flashcards
+      </li>
+      <li class="nav-item" data-target="settings" style="margin-top: auto;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+        Settings
+      </li>
+    </ul>
+  </aside>
+
+  <!-- Main Views Container -->
+  <main id="main-content">
+    
+    <!-- DASHBOARD VIEW -->
+    <section id="view-dashboard" class="view-container">
+      <div id="motivational-quote" class="text-muted" style="margin-bottom: 24px; font-style: italic; border-left: 3px solid var(--accent-color); padding-left: 12px;">
+        "Education is not the learning of facts, but the training of the mind to think."
+      </div>
+      <h1 class="text-cyan" style="margin-bottom: 8px;">Welcome back, <span id="user-name-display">Scholar</span></h1>
+      <p class="text-muted" style="margin-bottom: 32px;">Ready to conquer Paper II English?</p>
+      
+      <div class="grid-4" style="margin-bottom: 40px;">
+        <div class="card">
+          <div class="text-muted" style="font-size: 0.9rem;">Total Attempted</div>
+          <div style="font-size: 2.5rem; font-weight: 700; margin-top: 8px;" id="stat-attempted">0</div>
+        </div>
+        <div class="card">
+          <div class="text-muted" style="font-size: 0.9rem;">Overall Accuracy</div>
+          <div style="font-size: 2.5rem; font-weight: 700; margin-top: 8px; color: var(--green);" id="stat-accuracy">0%</div>
+        </div>
+        <div class="card">
+          <div class="text-muted" style="font-size: 0.9rem;">Current Streak</div>
+          <div style="font-size: 2.5rem; font-weight: 700; margin-top: 8px; color: var(--cyan);" id="stat-streak">0 days</div>
+        </div>
+        <div class="card">
+          <div class="text-muted" style="font-size: 0.9rem;">Flashcards Ready</div>
+          <div style="font-size: 2.5rem; font-weight: 700; margin-top: 8px;" id="stat-flashcards">0</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card" style="height: 100%;">
+          <h2>Quick Actions</h2>
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <button class="btn btn-primary" style="padding: 16px;" onclick="window.appState.router('practice')">Start Practice Test</button>
+            <button class="btn btn-cyan" onclick="window.appState.router('papers')">Browse Previous Papers</button>
+            <button class="btn" onclick="window.appState.router('flashcards')">Review Flashcards</button>
+          </div>
+        </div>
+        <div class="card" style="height: 100%;">
+          <h2>Recent Activity</h2>
+          <div id="recent-activity-list" style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
+            <div class="text-muted" style="font-size: 0.9rem;">No recent sessions yet. Start practicing!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAPERS VIEW -->
+    <section id="view-papers" class="view-container hidden">
+      <h1>Previous Papers</h1>
+      <p class="text-muted" style="margin-bottom: 32px;">Browse all available exam papers. Track your completion and accuracy.</p>
+      
+      <!-- List View -->
+      <div id="papers-grid" class="grid-3"></div>
+      
+      <!-- Single Paper Detail View -->
+      <div id="paper-detail-view" class="hidden">
+        <button class="btn" style="margin-bottom: 24px;" id="back-to-papers">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          Back to Papers
+        </button>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px;">
+          <div>
+            <h2 id="paper-detail-title" style="margin: 0;">Paper Title</h2>
+            <div id="paper-detail-subtitle" class="text-muted">Loading questions...</div>
+          </div>
+          <div style="font-size: 1.2rem; font-weight: 600;">
+             Score: <span id="paper-session-score" class="text-cyan">0 / 0</span>
+          </div>
+        </div>
+
+        <div class="paper-detail-layout">
+          <!-- Sidebar of questions -->
+          <div class="questions-sidebar" id="paper-questions-list"></div>
+          
+          <!-- Question Viewer -->
+          <div class="card question-viewer">
+             <div id="pq-number" class="text-muted" style="font-family: var(--font-mono); margin-bottom: 8px;">Question 1</div>
+             <div id="pq-text" class="q-text">Select a question from the sidebar to begin.</div>
+             
+             <div class="options-grid" id="pq-options"></div>
+
+             <div id="pq-explanation-container" class="hidden explanation-box">
+                <strong class="text-cyan">Explanation:</strong>
+                <p id="pq-explanation" style="margin-top: 8px;"></p>
+                <div class="actions-bar">
+                  <button class="btn btn-cyan" id="btn-add-flashcard">Add to Flashcards</button>
+                  <button class="btn" id="btn-ai-explain" style="display: none;">AI: Explain Simply</button>
+                  <button class="btn" id="btn-ai-similar" style="display: none;">AI: Generate Similar</button>
+                </div>
+                <div id="pq-ai-response" class="ai-chat-box hidden"></div>
+             </div>
+
+             <div style="display: flex; justify-content: space-between; margin-top: 40px;">
+                <button class="btn" id="btn-pq-prev">Previous</button>
+                <button class="btn" id="btn-pq-next">Next Question</button>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRACTICE TEST VIEW -->
+    <section id="view-practice" class="view-container hidden">
+      <div id="practice-config">
+         <h1>Practice Test</h1>
+         <p class="text-muted" style="margin-bottom: 32px;">Configure your custom practice session.</p>
+         
+         <div class="card" style="margin-bottom: 24px; max-width: 800px;">
+            <h3 style="margin-bottom: 16px;">Source Data</h3>
+            <div style="display: flex; gap: 24px; margin-bottom: 16px;">
+               <label style="cursor:pointer;"><input type="radio" name="pt-source" value="clean" checked> Verified Questions Only</label>
+               <label style="cursor:pointer;"><input type="radio" name="pt-source" value="full"> All Questions (Includes unverified)</label>
+            </div>
+            
+            <h3 style="margin-bottom: 16px; margin-top: 32px;">Number of Questions: <span id="pt-num-display" class="text-cyan">50</span></h3>
+            <input type="range" id="pt-num" min="5" max="100" step="5" value="50">
+            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-top: 8px;">
+               <span>5</span><span>100</span>
+            </div>
+
+            <h3 style="margin-bottom: 16px; margin-top: 32px;">Timer Mode</h3>
+            <div class="grid-3" style="gap: 16px;">
+               <div class="card mode-card active" data-mode="exam">
+                  <h4>Exam Mode</h4>
+                  <p class="text-muted" style="font-size: 0.85rem; margin-top: 8px;">72 seconds per question. Immediate feedback disabled.</p>
+               </div>
+               <div class="card mode-card" data-mode="relaxed">
+                  <h4>Relaxed Mode</h4>
+                  <p class="text-muted" style="font-size: 0.85rem; margin-top: 8px;">3 mins per question. Immediate explanations.</p>
+               </div>
+               <div class="card mode-card" data-mode="zen">
+                  <h4>Zen Mode</h4>
+                  <p class="text-muted" style="font-size: 0.85rem; margin-top: 8px;">No timer. Immediate explanations.</p>
+               </div>
+            </div>
+            <p id="pt-time-calc" class="text-muted" style="margin-top: 16px; font-family: var(--font-mono); color: var(--cyan);">Simulating exam pressure: 60 minutes for 50 questions.</p>
+
+            <button class="btn btn-primary" id="btn-start-test" style="margin-top: 32px; width: 100%; font-size: 1.1rem; padding: 16px;">Start Practice Test</button>
+         </div>
+      </div>
+
+      <div id="practice-active" class="hidden">
+         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+            <div class="text-muted">Question <span id="pt-q-current">1</span> of <span id="pt-q-total">10</span></div>
+            <div id="pt-timer" style="font-size: 1.5rem; font-family: var(--font-mono); font-weight: 600; color: var(--green);">00:00:00</div>
+            <div>
+               <button class="btn" id="btn-pt-quit" style="color: var(--red); border-color: rgba(248, 113, 113, 0.3);">Quit</button>
+            </div>
+         </div>
+         
+         <div class="card question-viewer" style="min-height: 400px;">
+             <div id="pt-q-text" class="q-text">Question text goes here...</div>
+             <div class="options-grid" id="pt-q-options"></div>
+             <div id="pt-explanation-container" class="hidden explanation-box">
+                <strong class="text-cyan">Explanation:</strong>
+                <p id="pt-explanation" style="margin-top: 8px;"></p>
+             </div>
+             <div style="display: flex; justify-content: space-between; margin-top: 40px; margin-bottom: 0;">
+                <button class="btn" id="btn-pt-prev">Previous</button>
+                <button class="btn btn-primary" id="btn-pt-next">Next</button>
+             </div>
+         </div>
+         
+         <div class="card" style="margin-top: 24px;">
+            <h4 style="margin-bottom: 16px;">Question Palette</h4>
+            <div id="pt-palette" style="display: flex; gap: 8px; flex-wrap: wrap;"></div>
+            <button class="btn" id="btn-pt-submit" style="margin-top: 24px; width: 100%;">Submit Test</button>
+         </div>
+      </div>
+
+      <div id="practice-results" class="hidden">
+         <h1 class="text-cyan" style="text-align: center; font-size: 4rem;" id="pt-res-score">0%</h1>
+         <p class="text-muted" style="text-align: center; margin-bottom: 32px;" id="pt-res-sub">You scored 0 out of 0</p>
+         
+         <div class="grid-3" style="margin-bottom: 32px;">
+            <div class="card" style="text-align: center;">
+               <div class="text-muted">Correct</div>
+               <div style="font-size: 2rem; color: var(--green);" id="pt-res-correct">0</div>
+            </div>
+            <div class="card" style="text-align: center;">
+               <div class="text-muted">Wrong</div>
+               <div style="font-size: 2rem; color: var(--red);" id="pt-res-wrong">0</div>
+            </div>
+            <div class="card" style="text-align: center;">
+               <div class="text-muted">Skipped</div>
+               <div style="font-size: 2rem; color: var(--text-muted);" id="pt-res-skipped">0</div>
+            </div>
+         </div>
+         <button class="btn" id="btn-pt-back-dash" style="margin-bottom: 24px;">Back to Dashboard</button>
+         
+         <h2>Review Questions</h2>
+         <div id="pt-res-review" style="display: flex; flex-direction: column; gap: 16px;"></div>
+      </div>
+    </section>
+
+    <!-- PROGRESS VIEW -->
+    <section id="view-progress" class="view-container hidden">
+       <h1>Progress Analytics</h1>
+       <p class="text-muted" style="margin-bottom: 32px;">Visualise your performance and consistency over time.</p>
+
+       <div class="grid-2">
+          <div class="card">
+             <h3 style="margin-bottom: 16px;">Accuracy History (Last 20 Sessions)</h3>
+             <svg id="chart-accuracy" width="100%" height="200" viewBox="0 0 400 200" style="border-bottom: 1px solid var(--border-color); border-left: 1px solid var(--border-color); overflow: visible;"></svg>
+          </div>
+          <div class="card">
+             <h3 style="margin-bottom: 16px;">Study Streak Activity</h3>
+             <div id="chart-streak" style="display: grid; grid-template-columns: repeat(14, 1fr); gap: 4px; height: 200px;">
+                <!-- Grid injected by JS -->
+             </div>
+          </div>
+       </div>
+    </section>
+
+    <!-- FLASHCARDS VIEW -->
+    <section id="view-flashcards" class="view-container hidden">
+       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+           <div>
+               <h1>Flashcards</h1>
+               <p class="text-muted">Spaced repetition for long-term retention.</p>
+           </div>
+           <div>
+               <button class="btn btn-cyan" id="btn-generate-ai-fc" style="display: none;">Generative AI Content</button>
+           </div>
+       </div>
+
+       <div id="fc-study-area" class="hidden">
+          <div class="text-muted" style="text-align: center; margin-bottom: 16px;">Cards Due: <span id="fc-due-count" class="text-cyan">0</span></div>
+          <div class="flashcard-container">
+             <div class="flashcard" id="active-flashcard">
+                <div class="flashcard-face">
+                   <div id="fc-front-text" style="font-size: 1.5rem; line-height: 1.4;">Front Text</div>
+                   <div class="text-muted" style="position: absolute; bottom: 20px; font-size: 0.8rem;">Click card to flip</div>
+                </div>
+                <div class="flashcard-face flashcard-back">
+                   <div id="fc-back-text" style="font-size: 1.1rem; line-height: 1.6; text-align: left; width: 100%;">Back Text</div>
+                </div>
+             </div>
+          </div>
+          
+          <div class="flashcard-actions hidden" id="fc-actions">
+             <button class="btn" onclick="handleFCResponse('hard')" style="border-color: rgba(248, 113, 113, 0.4); color: var(--red);">Hard (Soon)</button>
+             <button class="btn" onclick="handleFCResponse('good')" style="border-color: var(--text-main);">Good</button>
+             <button class="btn" onclick="handleFCResponse('easy')" style="border-color: rgba(74, 222, 128, 0.4); color: var(--green);">Easy (Later)</button>
+          </div>
+       </div>
+
+       <div id="fc-empty-state" class="card" style="text-align: center; padding: 60px 24px;">
+          <h3>No Flashcards Due!</h3>
+          <p class="text-muted" style="margin-top: 16px;">You've caught up completely. Add more cards from the Papers view or use AI to generate vocabulary cards.</p>
+       </div>
+    </section>
+
+    <!-- SETTINGS VIEW -->
+    <section id="view-settings" class="view-container hidden">
+      <h1>Settings</h1>
+      <div class="card" style="max-width: 600px; margin-top: 24px;">
+        <h3 style="margin-bottom: 16px;">General</h3>
+        <div style="margin-bottom: 16px;">
+          <label class="text-muted" style="display: block; margin-bottom: 8px;">Your Name</label>
+          <input type="text" id="setting-name" placeholder="Scholar">
+        </div>
+        <div style="margin-bottom: 24px;">
+          <label class="text-muted" style="display: block; margin-bottom: 8px;">Theme</label>
+          <button class="btn" id="theme-toggle">Switch Theme</button>
+        </div>
+        
+        <h3 style="margin-bottom: 16px; margin-top: 32px">AI Assistant (Gemini)</h3>
+        <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 16px;">Enter your Gemini API key to unlock explanations, similar questions, and AI flashcards. Your key is saved locally in your browser.</p>
+        <div style="margin-bottom: 16px;">
+          <input type="password" id="setting-gemini-key" placeholder="AIzaSy...">
+        </div>
+        <button class="btn btn-primary" id="btn-save-settings">Save Settings</button>
+        
+        <h3 style="margin-bottom: 16px; margin-top: 40px; color: var(--red);">Danger Zone</h3>
+        <button class="btn" style="color: var(--red); border-color: rgba(248, 113, 113, 0.4);" id="btn-reset-data">Reset All Data & Progress</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- TOAST CONTAINER -->
+  <div id="toast-container"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="main.js"></script>
+</body>
+</html>
