@@ -78,11 +78,13 @@ async function loadData() {
        ]);
 
        if (cleanRes && cleanRes.ok) {
-           appState.cleanQuestions = await cleanRes.json();
+           let parsedClean = await cleanRes.json();
+           appState.cleanQuestions = Array.isArray(parsedClean) ? parsedClean : (parsedClean.questions || []);
            appState.dataLoaded.clean = true;
        }
        if (fullRes && fullRes.ok) {
-           appState.fullQuestions = await fullRes.json();
+           let parsedFull = await fullRes.json();
+           appState.fullQuestions = Array.isArray(parsedFull) ? parsedFull : (parsedFull.questions || []);
            appState.dataLoaded.full = true;
        }
 
