@@ -6615,21 +6615,6 @@
       "flags": []
     },
     {
-      "id": 411,
-      "paper": "June 2009 — Paper II",
-      "question_number": 13,
-      "question": "Everyman is…",
-      "options": {
-        "a": "a medieval play based on an episode from the Bible",
-        "b": "a medieval morality play",
-        "c": "a Tudor interlude",
-        "d": "a miracle play"
-      },
-      "answer": "b",
-      "explanation": "'The Somonyng of Everyman' (The summoning of Everyman), usually referred to simply as 'Everyman', is a late 15th century morality play.",
-      "flags": []
-    },
-    {
       "id": 412,
       "paper": "June 2009 — Paper II",
       "question_number": 14,
@@ -7355,42 +7340,6 @@
       ]
     },
     {
-      "id": 457,
-      "paper": "December 2009 — Paper II",
-      "question_number": 1,
-      "question": "Emily Bronte",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 458,
-      "paper": "December 2009 — Paper II",
-      "question_number": 2,
-      "question": "Thomas Hardy",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 459,
       "paper": "December 2009 — Paper II",
       "question_number": 3,
@@ -7413,60 +7362,6 @@
       "paper": "December 2009 — Paper II",
       "question_number": 4,
       "question": "Charles Dickens",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 461,
-      "paper": "December 2009 — Paper II",
-      "question_number": 5,
-      "question": "Wessex",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 462,
-      "paper": "December 2009 — Paper II",
-      "question_number": 6,
-      "question": "Egdon Heath",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 463,
-      "paper": "December 2009 — Paper II",
-      "question_number": 7,
-      "question": "Coketown",
       "options": {
         "a": "",
         "b": "",
@@ -7661,24 +7556,6 @@
       ]
     },
     {
-      "id": 475,
-      "paper": "December 2009 — Paper II",
-      "question_number": 2,
-      "question": "epigram",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 476,
       "paper": "December 2009 — Paper II",
       "question_number": 3,
@@ -7759,42 +7636,6 @@
       "flags": []
     },
     {
-      "id": 481,
-      "paper": "December 2009 — Paper II",
-      "question_number": 2,
-      "question": "Lennie comedy.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 482,
-      "paper": "December 2009 — Paper II",
-      "question_number": 3,
-      "question": "Jake Barnes",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 483,
       "paper": "December 2009 — Paper II",
       "question_number": 22,
@@ -7859,24 +7700,6 @@
       "answer": "c",
       "explanation": "L’ Allegro’ is a pastoral poem by John Milton published in his 1645 Poems. ‘L’ Allegro (which means “the happy man” in Italian) is invariably paired with the contrasting pastoral poem, “Il Penseroso” (or 'the melancholy man'), which depicts a similar day spent in contemplation and thought. Match the character with the novel :",
       "flags": []
-    },
-    {
-      "id": 487,
-      "paper": "December 2009 — Paper II",
-      "question_number": 1,
-      "question": "Caddy",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
     },
     {
       "id": 488,
@@ -7980,24 +7803,6 @@
       ]
     },
     {
-      "id": 494,
-      "paper": "December 2009 — Paper II",
-      "question_number": 29,
-      "question": "Hyperbole is:",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 495,
       "paper": "December 2009 — Paper II",
       "question_number": 1,
@@ -8012,23 +7817,6 @@
       "explanation": "",
       "flags": [
         "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 496,
-      "paper": "December 2009 — Paper II",
-      "question_number": 2,
-      "question": "a racist slur",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "Northanger Abbey” was the first of Jane",
-      "flags": [
         "empty_opts:a,b,c,d"
       ]
     },
@@ -9173,23 +8961,6 @@
       ]
     },
     {
-      "id": 568,
-      "paper": "December 2010 — Paper II",
-      "question_number": 1,
-      "question": "Adultery",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "c",
-      "explanation": "'Othello, or the Moor of Venice' is a tragedy               3. Angel by Shakespeare believed to have been written in 1603. The correct combination for the statement, It is based on the story 'Un Capitano Moro' (a Moorish according to the code, is : captain) by Cinthio, a disciple of Boccaccio, first published in 1565. (b) II and III are correct.",
-      "flags": [
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 569,
       "paper": "December 2010 — Paper II",
       "question_number": 14,
@@ -9253,41 +9024,6 @@
       "flags": [
         "no_answer",
         "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 573,
-      "paper": "December 2010 — Paper II",
-      "question_number": 2,
-      "question": "Able",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 574,
-      "paper": "December 2010 — Paper II",
-      "question_number": 4,
-      "question": "Appetite",
-      "options": {
-        "a": "I and II are correct.",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "The Scarlet Letter: A Romance” is an 1850 work of fiction in a historical setting, written by American author Nathaniel Hawthorne. It tells the story and dignity.",
-      "flags": [
-        "empty_opts:b,c,d"
       ]
     },
     {
@@ -12920,24 +12656,6 @@
       ]
     },
     {
-      "id": 799,
-      "paper": "June 2012 — Paper II",
-      "question_number": 21,
-      "question": "List-I",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 800,
       "paper": "June 2012 — Paper II",
       "question_number": 1,
@@ -13582,59 +13300,6 @@
       ]
     },
     {
-      "id": 840,
-      "paper": "December 2012 — Paper III",
-      "question_number": 2,
-      "question": "masque",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 841,
-      "paper": "December 2012 — Paper III",
-      "question_number": 3,
-      "question": "Sonnet",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 842,
-      "paper": "December 2012 — Paper III",
-      "question_number": 4,
-      "question": "Prose tract",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "c",
-      "explanation": "Auchitya’ refers to propriety or Hence option (c).",
-      "flags": [
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 843,
       "paper": "December 2012 — Paper III",
       "question_number": 7,
@@ -13713,46 +13378,10 @@
       ]
     },
     {
-      "id": 848,
-      "paper": "December 2012 — Paper III",
-      "question_number": 2,
-      "question": "Old Goriot",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 849,
       "paper": "December 2012 — Paper III",
       "question_number": 3,
       "question": "The Cherry superiority over other young men of the time.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 850,
-      "paper": "December 2012 — Paper III",
-      "question_number": 4,
-      "question": "The Odyssey",
       "options": {
         "a": "",
         "b": "",
@@ -15167,23 +14796,6 @@
       ]
     },
     {
-      "id": 937,
-      "paper": "December 2012 — Paper II",
-      "question_number": 4,
-      "question": "Old Possum",
-      "options": {
-        "a": "",
-        "b": "It also carried pastoral and other poems. Hence option (a).",
-        "c": "It carried a \"Preface\" which Wordsworth added in 1800. \"strong\" and \"weak\" and popularized the",
-        "d": "It also printed from Gray's Elegy Written in a Country Churchyard."
-      },
-      "answer": "d",
-      "explanation": "Gray’s ‘Elegy written in a Country Churchyard’ was published in 1751 and not in ‘Lyrical Ballads’ (1798). Hence option (d).",
-      "flags": [
-        "empty_opts:a"
-      ]
-    },
-    {
       "id": 938,
       "paper": "December 2012 — Paper II",
       "question_number": 5,
@@ -16170,42 +15782,6 @@
       "flags": [
         "no_answer",
         "empty_opts:a,c,d"
-      ]
-    },
-    {
-      "id": 998,
-      "paper": "June 2013 — Paper III",
-      "question_number": 2,
-      "question": "A Musician.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 999,
-      "paper": "June 2013 — Paper III",
-      "question_number": 4,
-      "question": "An Artist.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
       ]
     },
     {
@@ -20119,42 +19695,6 @@
       ]
     },
     {
-      "id": 1240,
-      "paper": "December 2013 — Paper III",
-      "question_number": 2,
-      "question": "No.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 1241,
-      "paper": "December 2013 — Paper III",
-      "question_number": 3,
-      "question": "Not sure.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 1242,
       "paper": "December 2013 — Paper II",
       "question_number": 4,
@@ -21092,24 +20632,6 @@
       ]
     },
     {
-      "id": 1299,
-      "paper": "December 2013 — Paper II",
-      "question_number": 2,
-      "question": "Death by Water",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 1300,
       "paper": "December 2013 — Paper II",
       "question_number": 3,
@@ -21313,23 +20835,6 @@
       "explanation": "",
       "flags": [
         "no_answer"
-      ]
-    },
-    {
-      "id": 1312,
-      "paper": "December 2013 — Paper II",
-      "question_number": 1,
-      "question": "fog",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "Nahum Tate in ‘The History of King Lear’",
-      "flags": [
-        "empty_opts:a,b,c,d"
       ]
     },
     {
@@ -22565,24 +22070,6 @@
       "paper": "June 2014 — Paper III",
       "question_number": 48,
       "question": "In the 'Portrait of a Lady' Gilbert Osmond marries Isabel Archer because property.",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 1387,
-      "paper": "June 2014 — Paper III",
-      "question_number": 2,
-      "question": "He loved her",
       "options": {
         "a": "",
         "b": "",
@@ -25145,24 +24632,6 @@
       "answer": "a",
       "explanation": "I. Keats is associated        4. Nightingale with",
       "flags": []
-    },
-    {
-      "id": 1542,
-      "paper": "December 2014 — Paper III",
-      "question_number": 3,
-      "question": "Skylark,",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
     },
     {
       "id": 1543,
@@ -40732,23 +40201,6 @@
       "flags": []
     },
     {
-      "id": 2524,
-      "paper": "December 2019 — Paper II",
-      "question_number": 59,
-      "question": "Match",
-      "options": {
-        "a": "The Rambler",
-        "b": "Macmillan's",
-        "c": "Nerissa",
-        "d": "Goneril Magazine"
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer"
-      ]
-    },
-    {
       "id": 2525,
       "paper": "December 2019 — Paper II",
       "question_number": 56,
@@ -43415,46 +42867,10 @@
       ]
     },
     {
-      "id": 2690,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "subjectivity",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2691,
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 2,
       "question": "acknowledgement",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2692,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 3,
-      "question": "citation",
       "options": {
         "a": "",
         "b": "",
@@ -43486,46 +42902,10 @@
       ]
     },
     {
-      "id": 2694,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "A Small Place",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2695,
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 2,
       "question": "The Yellow Wallpaper",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2696,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 3,
-      "question": "Emma",
       "options": {
         "a": "",
         "b": "",
@@ -43579,42 +42959,6 @@
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 1,
       "question": "Elaine Showalter",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2700,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 2,
-      "question": "Luce Irigaray",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2701,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 3,
-      "question": "Kate Millett",
       "options": {
         "a": "",
         "b": "",
@@ -43767,24 +43111,6 @@
       "flags": []
     },
     {
-      "id": 2710,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 2,
-      "question": "actant",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2711,
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 4,
@@ -43905,24 +43231,6 @@
       ]
     },
     {
-      "id": 2718,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 2,
-      "question": "Jean Racine",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2719,
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 3,
@@ -43955,24 +43263,6 @@
       "explanation": "Eliot's essay 'The Metaphysical Poets' was first published as a review of J.G. Gierson's edition of Metaphysical lyrics and poems of the 17th Century. In this essays Eliot had given the reference of two great master of the French language as following- \"In French literature the great master of the seventeenth century Racine and the great master of the nineteenth –Baudelaire- are in some ways more like each other then they are like anyone else. The greatest…………Milton and Dryden, triumph with a A metalanguage is a language used to specifically linked to the work of Pierre describe another language, often called the object Bourdieu?",
       "flags": [
         "long_explanation"
-      ]
-    },
-    {
-      "id": 2721,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "habitus",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
       ]
     },
     {
@@ -44398,46 +43688,10 @@
       ]
     },
     {
-      "id": 2746,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "Robert Burton",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2747,
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 2,
       "question": "Francois Rabelais",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2748,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 3,
-      "question": "Francis Bacon",
       "options": {
         "a": "",
         "b": "",
@@ -44485,46 +43739,10 @@
       ]
     },
     {
-      "id": 2751,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "Iliad",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2752,
       "paper": "June 2020 — Paper II — Shift I",
       "question_number": 2,
       "question": "The Divine Comedy",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2753,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 3,
-      "question": "Les Miserables",
       "options": {
         "a": "",
         "b": "",
@@ -44921,24 +44139,6 @@
       "answer": "c",
       "explanation": "Epic theatre\" is a theatrical movement given below: To His Coy Mistress\" is a Cavalier poem written by Andrew Marwell. It was published posthumously in 1681. It is a non-stanzaic iambic tetrameter poem rhyming as couplets. In this poem two rivers are mentioned as Ganga and Humber, following lines makes it clear- \"Thou by the Indian Gange's side Shouldst rubies find; I by the tide of Humber would complain. I would\"",
       "flags": []
-    },
-    {
-      "id": 2776,
-      "paper": "June 2020 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "Shylock",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
     },
     {
       "id": 2777,
@@ -46840,24 +46040,6 @@
       ]
     },
     {
-      "id": 2892,
-      "paper": "December 2020/June 2021 — Paper II — Shift II",
-      "question_number": 3,
-      "question": "English Traits",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
       "id": 2893,
       "paper": "December 2020/June 2021 — Paper II — Shift II",
       "question_number": 4,
@@ -47184,24 +46366,6 @@
       "answer": "b",
       "explanation": ": The appropriate match list of writer and their books are- List I (Writer)                   List II (Book)",
       "flags": []
-    },
-    {
-      "id": 2913,
-      "paper": "December 2020/June 2021 — Paper II — Shift II",
-      "question_number": 1,
-      "question": "Homi Bhabha",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "Workings of power"
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c"
-      ]
     },
     {
       "id": 2914,
@@ -48520,60 +47684,6 @@
       "answer": "a",
       "explanation": ": 'Complementary' use of English in India as a \"Link language\" along with a first language by stable bilinguals in well-defined social contexts. English has become a link language in the real sense of the term. In India it's slowly becoming the language of communication for the classes and the masses in various corporate offices, MNCS, colleges, schools etc. slowly but surely people have started to get the hang of it. There are four distinct function of English in India on the basis of the social needs of people.",
       "flags": []
-    },
-    {
-      "id": 2995,
-      "paper": "December 2020/June 2021 — Paper II — Shift I",
-      "question_number": 1,
-      "question": "Complementary",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2996,
-      "paper": "December 2020/June 2021 — Paper II — Shift I",
-      "question_number": 2,
-      "question": "Supplementary",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
-    },
-    {
-      "id": 2997,
-      "paper": "December 2020/June 2021 — Paper II — Shift I",
-      "question_number": 3,
-      "question": "Auxiliary",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "",
-      "explanation": "",
-      "flags": [
-        "no_answer",
-        "empty_opts:a,b,c,d"
-      ]
     },
     {
       "id": 2998,
@@ -50047,23 +49157,6 @@
       ]
     },
     {
-      "id": 3087,
-      "paper": "December 2021/June 2022 — Paper II — Shift II",
-      "question_number": 34,
-      "question": "Match List I with List II",
-      "options": {
-        "a": "A, C and D only",
-        "b": "B, C and D only List I",
-        "c": "C, D and E only",
-        "d": "A, B and D only A. Siddhant Dhanvant I. Almost Single"
-      },
-      "answer": "d",
-      "explanation": ": George Lamming was a Barbadian novelist, Shanghvi essayist and poet, who was born on 8th June 1927. B. Advaita Kala          II. Love Over Coffee C. Amrit Shetty          III. The Zoya factor D. Anuja Chauhan         IV. The Lost Flamingoes of Bombay Choose the correct answer from the options given below: (a) A-IV, B-III, C-II, D-I (b) A-I, B-II, C-III, D-IV (c) A-IV, B-I, C-III, D-II (d) A-IV, B-I, C-II, D-III year A. Siddhant            IV. The Lost Flamingoes 2009 Dhanvant                of Bombay Shanghvi B. Advaita Kala        I. Almost Single            2007 C. Amrit Shetty        II. Love Over Coffee        2010 (d) C, D and E only Hence option (d) is correct.",
-      "flags": [
-        "long_explanation"
-      ]
-    },
-    {
       "id": 3088,
       "paper": "December 2021/June 2022 — Paper II — Shift II",
       "question_number": 35,
@@ -50236,24 +49329,6 @@
       "flags": [
         "no_answer",
         "empty_opts:d"
-      ]
-    },
-    {
-      "id": 3098,
-      "paper": "December 2021/June 2022 — Paper II — Shift II",
-      "question_number": 49,
-      "question": "Match List I with List II",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "a",
-      "explanation": ": Paronomasia is a figure of speech based on sound. They can be defined as a phrase intentionally used to exploit the confusion between words having similar sound but different meanings. Zeugma is a based on construction. It is a literary term for using one word to modify two other words, in two different ways. Choose the correct answer from the options Euphemism is based on indirectness. It is used to express a mild, indirect or vague term to substitute for a harsh, blunt on offensive term. (b) A-II, B-I, C-III, D-IV Irony has nothing to do with imagination. It is a (c) A-I, B-II, C-III, D-IV rhetorical device that is used to express an intended (d) A-III, B-I, C-II, D-IV meaning by using language that conveys the opposite meaning when taken literally. Chiasmus is not about association. It is a two part                      List-I sentence or phrase, where the second part is a mission        A. Bricolage image of the first. Hence option (a) is correct.",
-      "flags": [
-        "empty_opts:a,b,c,d",
-        "long_explanation"
       ]
     },
     {
@@ -54981,24 +54056,6 @@
       "flags": [
         "no_answer",
         "empty_opts:b,c,d"
-      ]
-    },
-    {
-      "id": 3385,
-      "paper": "December 2022 — Paper II — Shift II",
-      "question_number": 69,
-      "question": "Match List I with List II",
-      "options": {
-        "a": "",
-        "b": "A-IV, B-I, C-II, D-III List-I",
-        "c": "A-III, B-IV, C-I, D-II A. Some are born great, I. The Tempest others",
-        "d": ""
-      },
-      "answer": "a",
-      "explanation": ": The correct match of List-I with List-II is greatness. (A)-III, (B)-IV, (C)-I, (D)-II B. Love looks not with II. The Comedy of Errors the eyes, but with the mind, and therefore is winged Cupid painted blind. C. Ill deeds is doubled III. A Midsummer Night's D. Mirror Stage with an evil word. • 'Aporia' is a term commonly used in Deconstruction D. We are such stuff as IV. Twelfth Night dreams are made on, and our little life is rounded with a sleep. Choose the correct answer from the options • Arjun Appadurai, an anthropologist, defined the five given below : (a) A-IV, B-III, C-II, D-I (b) A-I, B-II, C-III, D-IV (c) A-III, B-IV, C-I, D-II (d) A-II, B-III, C-I, D-IV : The correct match of the lines with the play • In Marxist theory, especially that of Louis Althusser, it has been taken is : (A)-IV, (B)-III, (C)-II, (D)-I. List-I/Line A. Some are born great, IV. Twelfth Night others achieve greatness eyes, but with mind, and     Night's Dream List-II                therefore is winged cupid II. Sanguine                     painted blind. C. Ill deeds is doubted with II. The    Comedy    of Errors I. Phlegmatic III. Melancholy our little life is rounded with sleep. List-II I. Marxism II. Psychoanalysis C. Interpellation           III. Deconstruction IV. Globalisation Choose the correct answer from the options List-II (d) A-II, B-III, C-I, D-IV achieve List-I/(Terms)               List-II/(Theory) A. Aporia                     III. Deconstruction B. Scapes                     IV. Globalization C. Interpellation              I. Marxism II. Psychoanalysis Dream theory to describe the difficulty in understanding the meaning of the words. The term refers to the unresolvable problems that may arise while reading a text. Scapes to develop the concept of global cultural flow. The Scapes can help us understanding the complexity of process of globalization. These five Scapes are ethnoscapes, technoscapes, ideoscapes, finamescapes, and Mediascapes. interpellation is a culture's or ideologie's creating of identity for \"individual\". List-II/Play     • 'Mirror stage' is a concept from Jaques Lacan's psychoanalytic   theory. Hence, the correct answer is option (c).",
-      "flags": [
-        "empty_opts:a,d",
-        "long_explanation"
       ]
     },
     {

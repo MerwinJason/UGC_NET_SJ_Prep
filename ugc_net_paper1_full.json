@@ -65,46 +65,6 @@
       ]
     },
     {
-      "id": 3,
-      "paper": "December 2015 — Paper I",
-      "question_number": 3,
-      "question": "Place of birth",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "Active involvement in the m institution is a discretion teacher. It does not affect any teacher.",
-      "topic": "Qualities of a good teacher",
-      "unit": "Teaching aptitude",
-      "flags": [
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
-      "id": 4,
-      "paper": "December 2015 — Paper I",
-      "question_number": 4,
-      "question": "Nationality",
-      "options": {
-        "a": "2, 3 and 4",
-        "b": "1, 2 and 3",
-        "c": "1, 2 and 4",
-        "d": "1, 2, 3 and 4"
-      },
-      "answer": "a",
-      "explanation": "MCQs require respondents to and hence it helps in bette understanding level of lear",
-      "topic": "Types of questions",
-      "unit": "Teaching aptitude",
-      "flags": []
-    },
-    {
       "id": 5,
       "paper": "December 2015 — Paper I",
       "question_number": 5,
@@ -1805,30 +1765,6 @@
       "flags": []
     },
     {
-      "id": 96,
-      "paper": "December 2018 — Paper I",
-      "question_number": 36,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "NCTE regulates and plans the promotion of teacher education programmes across India. It ensures maintenance of rules and standards in teacher education programmes.",
-      "topic": "Governance and administration",
-      "unit": "Higher education system",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 97,
       "paper": "December 2018 — Paper I",
       "question_number": 37,
@@ -2353,30 +2289,6 @@
       "flags": []
     },
     {
-      "id": 124,
-      "paper": "December 2019 — Paper I",
-      "question_number": 14,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "Effective oral communicatio on self-confidence, consist knowing the audience but co effected by attitude of enc not correct.",
-      "topic": "Effective communication",
-      "unit": "Communication",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 125,
       "paper": "December 2019 — Paper I",
       "question_number": 15,
@@ -2565,30 +2477,6 @@
       "flags": []
     },
     {
-      "id": 135,
-      "paper": "December 2019 — Paper I",
-      "question_number": 25,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "All diaries are copies Copies No copy is Book So, D ill be mother of No diary is Book, and Books hter, hence she is the No book is copy",
-      "topic": "Syllogism",
-      "unit": "Logical reasoning",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 136,
       "paper": "December 2019 — Paper I",
       "question_number": 26,
@@ -2720,23 +2608,6 @@
       },
       "answer": "b",
       "explanation": "ether in 2012 = 385 cr GIS is a software that collects, stores, retrieves ether in 2012 = 510 cr useful information regarding the specific geographic area on earth and its surroundings.",
-      "topic": "Terminology",
-      "unit": "Information and communication technology",
-      "flags": []
-    },
-    {
-      "id": 144,
-      "paper": "December 2019 — Paper I",
-      "question_number": 34,
-      "question": "VDU stands for",
-      "options": {
-        "a": "Virtual Display Unit",
-        "b": "Virtual Detection Unit",
-        "c": "Visual Display Unit",
-        "d": "Visual Detection Unit"
-      },
-      "answer": "c",
-      "explanation": "08 = 4:1 Visual display unit is an output device that uses r technology to present image and text. The flat screen or a projector are examples of VDU. = 4:1 1/4 = 6 35. Option (b) is correct. 08 = 1:2 Since 1988, computer security day has been celebrated on 30th November to generate r awareness among people regarding data = 1:2 security and protection of electronic devices. 2/1 = 90",
       "topic": "Terminology",
       "unit": "Information and communication technology",
       "flags": []
@@ -2962,30 +2833,6 @@
       "topic": "Fact based",
       "unit": "Comprehension",
       "flags": []
-    },
-    {
-      "id": 157,
-      "paper": "December 2019 — Paper I",
-      "question_number": 47,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "According to labour theory of value, the f UGC in 2019, any labour is engaged in a fixed proportion to that status of deemed of the commodity being produced and it is nal for more than homogeneous. least 100 teachers 48. Option (c) is correct. According to the paragraph, more capital equipment is required per worker for unded in 1995, production of steel in comparison to products amework regarding like textile. lobally. It considers",
-      "topic": "Fact based",
-      "unit": "Comprehension",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
     },
     {
       "id": 158,
@@ -3294,30 +3141,6 @@
       "topic": "Fact based",
       "unit": "Comprehension",
       "flags": [
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
-      "id": 174,
-      "paper": "July 2018 — Paper I",
-      "question_number": 14,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "Technological inputs will result in the improvement in the quality of life of our people. They will get a life of dignity.",
-      "topic": "Fact based",
-      "unit": "Comprehension",
-      "flags": [
-        "no_question",
         "empty_opt:a",
         "empty_opt:b",
         "empty_opt:c",
@@ -6479,30 +6302,6 @@
       "flags": []
     },
     {
-      "id": 343,
-      "paper": "June 2019 — Paper I",
-      "question_number": 18,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "c",
-      "explanation": "In scientific method of reasoning the theories are developed to explain any concept. These theories are constructed through trial and error methods by using both inductive and deductive reasoning.",
-      "topic": "Deductive and inductive reasoning",
-      "unit": "Logical reasoning",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 344,
       "paper": "June 2019 — Paper I",
       "question_number": 19,
@@ -8377,30 +8176,6 @@
       "flags": []
     },
     {
-      "id": 448,
-      "paper": "November 2017 — Paper I",
-      "question_number": 23,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "c",
-      "explanation": "in COVALENT is coded as BWPDUOFM. If we break COVA-LENT and BWPD-UOFM in two parts, it can be noted that these parts are related when the parts of the second alphabet are flipped. he COVA-DPWB LENT-MFOU The alphabets are in sequences, like CD, OP, ea of VW, AB, LM, EF, NO, TU. achieve Hence, ELEPHANT will be QFMFUOBI. and what e help of 24. Option (c) is correct. Uncle of Rakesh’s son will be Rakesh’s brother. Hence, his father will be Rakesh’s father. creation 25. Option (a) is correct. ct in the N W E be derstand S ners before 20 m Starting 10 m point (right turn) eakers to olved left (10 m) ching right turn (20 m) o establish 70 m e is These type of questions are based on practically imagination that will be required for understanding left and right turn. utive 20 A the 10 10 20+10=30 20 40 20+10=30 C B 70 the By theorem AC2 = AB2 + CB2 2 2 2 AC = 40 + 30 AC2 = 1600 + 900 AC = 2500 AC = 50 He is 50 m far from starting point.",
-      "topic": "Codes",
-      "unit": "Logical reasoning",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 449,
       "paper": "November 2017 — Paper I",
       "question_number": 24,
@@ -8785,30 +8560,6 @@
       "topic": "Environmental friendly resource",
       "unit": "People, development and environment",
       "flags": []
-    },
-    {
-      "id": 471,
-      "paper": "November 2017 — Paper I",
-      "question_number": 46,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "c",
-      "explanation": "Compulsory and free education is not of higher education in India.",
-      "topic": "Governance and administration",
-      "unit": "Higher education system",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
     },
     {
       "id": 472,
@@ -9763,30 +9514,6 @@
       "flags": []
     },
     {
-      "id": 525,
-      "paper": "November 2020 — Paper I",
-      "question_number": 50,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "The initial concept of human rights is not understood clearly but a new layer has been added to it. This new idea is initiated by UDHR (Universal Declaration of Human Rights) that identifies the government as being responsible for enforcement of human rights. This has made human rights a trans-political phenomenon or a phenomenon being discussed across various countries. ",
-      "topic": "Fact based",
-      "unit": "Comprehension",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 526,
       "paper": "November 2021 — Paper I",
       "question_number": 1,
@@ -9887,30 +9614,6 @@
       "topic": "Method of learning",
       "unit": "Teaching Aptitude",
       "flags": [
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
-      "id": 532,
-      "paper": "November 2021 — Paper I",
-      "question_number": 7,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "Padlet is an online tool used as a notice board and used by teachers and students both to post notes on a common area which can include images, links, videos, text etc. Seasaw is a mobile application platform that allows students to work with their imagination and creativity. Everyone works together on this platform on text, PDF, drawings, videos etc.",
-      "topic": "Levels of Teaching",
-      "unit": "Teaching Aptitude",
-      "flags": [
-        "no_question",
         "empty_opt:a",
         "empty_opt:b",
         "empty_opt:c",
@@ -10040,30 +9743,6 @@
       ]
     },
     {
-      "id": 540,
-      "paper": "November 2021 — Paper I",
-      "question_number": 15,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "Bell shaped curve in the case of symmetrical data. In this case, Mean, median and mode are equal or Mean = Median = Mode. In case of asymmetrical data, the curve is bended or skewed. It can be positively or negatively skewed. This given curve is a positively skewed curve. In this case, Mean is highest and mode is lowest or Mean>Median>Mode. (Note: This can be learned by remembering “Positive people are always right and mean.” This shows that positively skewed curve is bend from right side and mean has highest value in it. ) This given curve is a negatively skewed curve. In this case, Mode is highest and mean is lowest or Mode>Median>Mean.",
-      "topic": "Analyzing the data",
-      "unit": "Research Aptitude",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 541,
       "paper": "November 2021 — Paper I",
       "question_number": 16,
@@ -10079,30 +9758,6 @@
       "topic": "General Aptitude",
       "unit": "Communication",
       "flags": []
-    },
-    {
-      "id": 542,
-      "paper": "November 2021 — Paper I",
-      "question_number": 17,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "c",
-      "explanation": "Print in mass media is considered as a mechanical medium of communication.",
-      "topic": "General Aptitude",
-      "unit": "Communication",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
     },
     {
       "id": 543,
@@ -10241,78 +9896,6 @@
       "flags": []
     },
     {
-      "id": 551,
-      "paper": "November 2021 — Paper I",
-      "question_number": 26,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "The fallacy when arguments are connected with a flow and series of irrelevant arguments is called a slippery slope. Straw Man fallacy: this is a miss presentation by someone to make it easier to attack if a mother says that you have to finish the veggies if you want dessert and the sun replies you love me only when I eat food. Appeal to authority is a fallacy where an argument is considered valid as it is delivered by some authorized person or text.",
-      "topic": "General Aptitude",
-      "unit": "Logical Reasoning",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
-      "id": 552,
-      "paper": "November 2021 — Paper I",
-      "question_number": 27,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "All the given statements are equivalent except statement 1 which can not be defined.",
-      "topic": "Square of opposition",
-      "unit": "Logical Reasoning",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
-      "id": 553,
-      "paper": "November 2021 — Paper I",
-      "question_number": 28,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "a",
-      "explanation": "Contary A type statement E type statement Contradictory Sub-Alter Sub- Alter Contradictory I type statement O type statement Sub- Contary • A type statement- Universal positive statements where all or almost or most of words are used. Example- All philosophers are industrialists. • E type statements- Universal negative statements. For example- All philosophers are not industrialists. • I type statements. Particular positive statements. Where some or few are used. Example- Some philosophers are industrialists. • O type statements- Particular negative statements. For example- some philosophers are not industrialists. A and O type statements or E and I type of statements are logically contradictory to each other.",
-      "topic": "Square of opposition",
-      "unit": "Logical Reasoning",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 554,
       "paper": "November 2021 — Paper I",
       "question_number": 29,
@@ -10387,54 +9970,6 @@
       "flags": []
     },
     {
-      "id": 558,
-      "paper": "November 2021 — Paper I",
-      "question_number": 33,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "b",
-      "explanation": "AI aur artificial intelligence is the latest or modern technology in which the intelligence is demonstrated by machines like robots, Alexa, Siri etc. Artificially created environment that is used to give a feeling of being there whereas virtual reality Learns from changing circumstances is a use of artificial intelligence.",
-      "topic": "Artificial Intelligence",
-      "unit": "ICT",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
-      "id": 559,
-      "paper": "November 2021 — Paper I",
-      "question_number": 34,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "All the given statements are benefits of connecting computers and devices rather than using a number of stand alone computers except the statement number three as users can share files and data from this type of networking computers.",
-      "topic": "Networking",
-      "unit": "ICT",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
-    },
-    {
       "id": 560,
       "paper": "November 2021 — Paper I",
       "question_number": 35,
@@ -10467,30 +10002,6 @@
       "topic": "General Aptitude",
       "unit": "People and Environment",
       "flags": []
-    },
-    {
-      "id": 562,
-      "paper": "November 2021 — Paper I",
-      "question_number": 37,
-      "question": "",
-      "options": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "answer": "d",
-      "explanation": "Photo Electro Chemical or PEC solar cells are based on hybrid structure of inorganic semiconductors and an electrolyte. This is a method from which hydrogen is produced from water.",
-      "topic": "General Aptitude",
-      "unit": "People and Environment",
-      "flags": [
-        "no_question",
-        "empty_opt:a",
-        "empty_opt:b",
-        "empty_opt:c",
-        "empty_opt:d",
-        "answer_not_in_opts"
-      ]
     },
     {
       "id": 563,
@@ -10549,27 +10060,6 @@
       "unit": "",
       "flags": [
         "no_answer",
-        "no_topic"
-      ]
-    },
-    {
-      "id": 566,
-      "paper": "November 2021 — Paper I",
-      "question_number": 41,
-      "question": "Match List I with List II",
-      "options": {
-        "a": "",
-        "b": "Low bandwidth of internet",
-        "c": "Personal attitude towards technology",
-        "d": "Physical locations of communicators"
-      },
-      "answer": "",
-      "explanation": "• The Governor of the state is the official chancellor of State Universities. • The President is the chancellor of all Central Universities. • Deemed universities can assign degrees, define and construct syllabus on their own.",
-      "topic": "",
-      "unit": "",
-      "flags": [
-        "no_answer",
-        "empty_opt:a",
         "no_topic"
       ]
     },

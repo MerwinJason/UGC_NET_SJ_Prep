@@ -19,23 +19,6 @@
   },
   "questions": [
     {
-      "id": 4,
-      "paper": "December 2015 — Paper I",
-      "question_number": 4,
-      "question": "Nationality",
-      "options": {
-        "a": "2, 3 and 4",
-        "b": "1, 2 and 3",
-        "c": "1, 2 and 4",
-        "d": "1, 2, 3 and 4"
-      },
-      "answer": "a",
-      "explanation": "MCQs require respondents to and hence it helps in bette understanding level of lear",
-      "topic": "Types of questions",
-      "unit": "Teaching aptitude",
-      "flags": []
-    },
-    {
       "id": 5,
       "paper": "December 2015 — Paper I",
       "question_number": 5,
@@ -1646,23 +1629,6 @@
       },
       "answer": "b",
       "explanation": "ether in 2012 = 385 cr GIS is a software that collects, stores, retrieves ether in 2012 = 510 cr useful information regarding the specific geographic area on earth and its surroundings.",
-      "topic": "Terminology",
-      "unit": "Information and communication technology",
-      "flags": []
-    },
-    {
-      "id": 144,
-      "paper": "December 2019 — Paper I",
-      "question_number": 34,
-      "question": "VDU stands for",
-      "options": {
-        "a": "Virtual Display Unit",
-        "b": "Virtual Detection Unit",
-        "c": "Visual Display Unit",
-        "d": "Visual Detection Unit"
-      },
-      "answer": "c",
-      "explanation": "08 = 4:1 Visual display unit is an output device that uses r technology to present image and text. The flat screen or a projector are examples of VDU. = 4:1 1/4 = 6 35. Option (b) is correct. 08 = 1:2 Since 1988, computer security day has been celebrated on 30th November to generate r awareness among people regarding data = 1:2 security and protection of electronic devices. 2/1 = 90",
       "topic": "Terminology",
       "unit": "Information and communication technology",
       "flags": []

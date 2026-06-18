@@ -718,3 +718,25 @@ p { line-height: 1.6; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
 @keyframes glow { 0%,100% { box-shadow: 0 0 8px rgba(0,210,255,0.3); } 50% { box-shadow: 0 0 20px rgba(0,210,255,0.6); } }
+
+/* Dropdown styling */
+select {
+  background-color: var(--surface2-color);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: var(--cyan);
+}
+
+option {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+}
