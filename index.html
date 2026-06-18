@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>UGC NET Paper II Prep</title>
+   <title>UGC NET Prep</title>
 
    <!-- Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,8 +25,7 @@
    <div id="loader-modal">
       <div class="loader-spinner"></div>
       <h2 style="margin-top: 16px;">Loading Question Data...</h2>
-      <p class="text-muted" style="font-family: var(--font-mono); font-size: 0.9rem;">Fetching mcq_clean.json &
-         mcq_full.json</p>
+      <p class="text-muted" style="font-family: var(--font-mono); font-size: 0.9rem;">Fetching question banks...</p>
    </div>
 
    <!-- Sidebar Component -->
@@ -38,6 +37,13 @@
          </svg>
          UGC NET Prep
       </div>
+
+      <!-- Paper Toggle -->
+      <div class="paper-toggle">
+         <button class="paper-pill" data-paper="p1">Paper I</button>
+         <button class="paper-pill active" data-paper="p2">Paper II</button>
+      </div>
+
       <ul class="nav-items">
          <li class="nav-item active" data-target="dashboard">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -57,6 +63,14 @@
                <polyline points="10 9 9 9 8 9"></polyline>
             </svg>
             Papers
+         </li>
+         <li class="nav-item hidden" data-target="concept-lab" id="nav-concept-lab">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+               <path d="M9 18h6"></path>
+               <path d="M10 22h4"></path>
+               <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5C8.35 12.26 8.82 13.02 9 14"></path>
+            </svg>
+            Concept Lab
          </li>
          <li class="nav-item" data-target="practice">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -101,7 +115,7 @@
          </div>
          <h1 class="text-cyan" style="margin-bottom: 8px;">Welcome back, <span id="user-name-display">Jessica</span>
          </h1>
-         <p class="text-muted" style="margin-bottom: 32px;">Ready to conquer Paper II English?</p>
+         <p class="text-muted" style="margin-bottom: 32px;" id="dashboard-subtitle">Ready to conquer Paper II English?</p>
 
          <div class="grid-4" style="margin-bottom: 40px;">
             <div class="card">
@@ -148,11 +162,20 @@
       <!-- PAPERS VIEW -->
       <section id="view-papers" class="view-container hidden">
          <h1>Previous Papers</h1>
-         <p class="text-muted" style="margin-bottom: 32px;">Browse all available exam papers. Track your completion and
+         <p class="text-muted" style="margin-bottom: 24px;">Browse all available exam papers. Track your completion and
             accuracy.</p>
+
+         <!-- Sub-tabs for Paper 1: By Paper / By Unit -->
+         <div class="papers-subtabs hidden" id="papers-subtabs">
+            <button class="papers-subtab active" data-subtab="by-paper">By Paper</button>
+            <button class="papers-subtab" data-subtab="by-unit">By Unit</button>
+         </div>
 
          <!-- List View -->
          <div id="papers-grid" class="grid-3"></div>
+
+         <!-- Unit Grid (Paper 1 only) -->
+         <div id="units-grid" class="grid-3 hidden"></div>
 
          <!-- Single Paper Detail View -->
          <div id="paper-detail-view" class="hidden">
@@ -383,6 +406,21 @@
 
          <h2 style="margin-top:40px;">Your Card Library <span id="fc-total-count" class="text-muted" style="font-size:1rem;">(0 cards)</span></h2>
          <div id="fc-library" style="display:flex;flex-direction:column;gap:12px;margin-top:16px;"></div>
+      </section>
+
+      <!-- CONCEPT LAB VIEW (Paper I only) -->
+      <section id="view-concept-lab" class="view-container hidden">
+         <h1>Concept Lab</h1>
+         <p class="text-muted" style="margin-bottom: 24px;">Interactive learning modules for Paper I — General Aptitude</p>
+         <div class="concept-lab-layout">
+            <div class="concept-units-panel" id="concept-units-panel"></div>
+            <div class="concept-content-panel" id="concept-content-panel">
+               <div class="card" style="text-align: center; padding: 60px 24px;">
+                  <h3 class="text-muted">Select a unit from the left panel</h3>
+                  <p class="text-muted" style="margin-top: 12px;">Each unit contains interactive learning modules and practice questions.</p>
+               </div>
+            </div>
+         </div>
       </section>
 
       <!-- SETTINGS VIEW -->
